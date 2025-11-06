@@ -1,0 +1,16 @@
+[project]
+name = "fft-convolution"
+version = "0.1.0"
+description = "Efficient convolution using a custom FFT implementation for complexity analysis"
+authors = ["Vansh <vansh@local>"]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+
+dependencies = [
+	"numpy>=1.20.0",
+	"Pillow>=8.0.0",
+	"requests>=2.0.0"
+]
+
+
